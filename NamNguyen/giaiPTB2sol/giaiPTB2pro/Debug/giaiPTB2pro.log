@@ -1,0 +1,3 @@
+﻿  giaiPTB2.cpp
+D:\IMICgit\dynamic_memory\dynamic_memory\NamNguyen\giaiPTB2sol\giaiPTB2pro\giaiPTB2.cpp(7,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  giaiPTB2pro.vcxproj -> D:\IMICgit\dynamic_memory\dynamic_memory\NamNguyen\giaiPTB2sol\Debug\giaiPTB2pro.exe
