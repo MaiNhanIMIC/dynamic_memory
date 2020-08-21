@@ -2,8 +2,11 @@
 #include<math.h>
 #include "giaiPTB2.h"
 
-void phuongtrinhB2::giaiPT()
+phuongtrinhB2::phuongtrinhB2(int a, int b, int c)
 {
+    //this->a = a;
+    //this->b = b;
+    //this->c = c;
     delta = b*b - 4 * a * c;
     if (delta < 0)
     {
@@ -23,4 +26,17 @@ void phuongtrinhB2::giaiPT()
         printf("Nghiem cua PT la n1 = %.3lf, n2 = %.3lf\n", n1, n2);
 
     }
+}
+
+phuongtrinhB2::~phuongtrinhB2()   //ham huy
+{
+
+}
+
+void phuongtrinhB2::hamX(phuongtrinhB2 X)
+{
+    X.a = this->a;
+    X.b = this->b;
+    X.c = this->c;
+    phuongtrinhB2(X.a, X.b, X.c);
 }

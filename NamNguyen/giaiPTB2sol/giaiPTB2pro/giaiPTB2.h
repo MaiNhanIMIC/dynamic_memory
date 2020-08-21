@@ -8,5 +8,7 @@ public:
 	float n1=0;
 	float n2=0;
 	float delta=0; 
-	void giaiPT();
+	phuongtrinhB2(int a,int b,int c);
+	~phuongtrinhB2();
+	void hamX(phuongtrinhB2 X);
 };
