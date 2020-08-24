@@ -1,2 +1,4 @@
 ﻿  main.cpp
+D:\IMICgit\dynamic_memory\dynamic_memory\NamNguyen\Ex1sol\Ex1pro\main.cpp(162,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+D:\IMICgit\dynamic_memory\dynamic_memory\NamNguyen\Ex1sol\Ex1pro\main.cpp(172,19): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
   Ex1pro.vcxproj -> D:\IMICgit\dynamic_memory\dynamic_memory\NamNguyen\Ex1sol\Debug\Ex1pro.exe

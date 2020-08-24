@@ -82,3 +82,94 @@
 //    cout << "Boi so chung lon nhat la: " << lcm(m, n) << endl;
 //    return 0;
 //}
+
+////Nhập một số nguyên từ bàn phím. Kiểm tra một số có phải là số hoàn hảo?
+//
+//#include<stdio.h>
+//bool check(int n) {
+//    int sum = 0;//khai bao biem sum
+//    for (int i = 1; i < n; i++) {
+//        if (n % i == 0)
+//            sum += i;
+//    }
+//    if (sum == n) return true; // tra ve true
+//    return false;
+//}
+//int main() {
+//    int n;
+//    printf("Nhap n: ");
+//    scanf_s("%d", &n);
+//    if (check(n))
+//        printf("%d la so hoan hao.", n);
+//    else
+//        printf("%d khong phai la so hoan hao.", n);
+//    return 0;
+//}
+
+////Nhập một số nguyên từ bàn phím. Kiểm tra một số có phải là số chính phương không?
+//
+//#include <stdio.h>
+//
+//int main() {
+//    int n;
+//    printf("\nNhap n = ");
+//    scanf_s("%d", &n);
+//    int i = 0;
+//    while (i * i <= n) {
+//        if (i * i == n) {
+//            printf("%d la so chinh phuong!\n", n);
+//            return 0;
+//        }
+//        ++i;
+//    }
+//    printf("%d khong phai so chinh phuong!\n", n);
+//}
+////Viết chương trình in ra các số nguyên tố trong phạm vi từ 1 đến n, với n nguyên nhập từ bàn phím.
+//
+//#include <stdio.h>
+//#include <math.h>
+//
+//int main() {
+//    int n, temp = 0;
+//    printf("\nNhap n = ");
+//    scanf_s("%d", &n);
+//    if (n < 2)
+//    {
+//        printf("\ntu 1 den %d khong co so nguyen to", n);
+//    }
+//    for (temp = 2; temp <= n; temp++)
+//    {
+//
+//        int count = 0;
+//        for (int i = 2; i < temp; i++) {
+//            if (temp % i == 0) {
+//                count++;
+//            }
+//        }
+//        if (count == 0) {
+//            printf("\n%d la so nguyen to\r\n", temp);
+//        }
+//        
+//    }
+//}
+
+//// Viết chương trình tính:S = 1 + x + 2x2 + 3x3 + ... + nxn Với x là số thực, n là số nguyên được nhập từ bàn phím.
+//
+//#include <stdio.h>
+//#include <math.h>
+//
+//void main()
+//{
+//	int n;
+//	float x, sum = 0;
+//	printf("nhap so nguyen n = ");
+//	scanf_s("%d", &n);
+//	printf("nhap so thuc x = ");
+//	scanf_s("%f", &x);
+//	sum += x;
+//	for (int i = 1; i <= n; i++)
+//	{
+//		sum += pow(i, 2);
+//	}
+//	printf("S = %.3f", sum);
+//}
